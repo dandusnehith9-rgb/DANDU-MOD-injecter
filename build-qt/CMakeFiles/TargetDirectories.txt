@@ -1,0 +1,5 @@
+C:/Users/dandu_jhluw4e/Desktop/Dandu MOD Injecter/build-qt/CMakeFiles/DANDU_MOD_injecter.dir
+C:/Users/dandu_jhluw4e/Desktop/Dandu MOD Injecter/build-qt/CMakeFiles/edit_cache.dir
+C:/Users/dandu_jhluw4e/Desktop/Dandu MOD Injecter/build-qt/CMakeFiles/rebuild_cache.dir
+C:/Users/dandu_jhluw4e/Desktop/Dandu MOD Injecter/build-qt/CMakeFiles/DANDU_MOD_injecter_autogen_timestamp_deps.dir
+C:/Users/dandu_jhluw4e/Desktop/Dandu MOD Injecter/build-qt/CMakeFiles/DANDU_MOD_injecter_autogen.dir

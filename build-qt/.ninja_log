@@ -1,0 +1,18 @@
+# ninja log v6
+67	1903	8017148965767400	DANDU_MOD_injecter_autogen/timestamp	f585c4d290b44ae1
+67	1903	8017148965767400	DANDU_MOD_injecter_autogen/mocs_compilation.cpp	f585c4d290b44ae1
+67	1903	8017148965767400	C:/Users/dandu_jhluw4e/Desktop/Dandu MOD Injecter/build-qt/DANDU_MOD_injecter_autogen/timestamp	f585c4d290b44ae1
+67	1903	8017148965767400	C:/Users/dandu_jhluw4e/Desktop/Dandu MOD Injecter/build-qt/DANDU_MOD_injecter_autogen/mocs_compilation.cpp	f585c4d290b44ae1
+1994	6163	8017148968218162	CMakeFiles/DANDU_MOD_injecter.dir/src/VersionMatcher.cpp.obj	c7bbb1e39a96a09
+1983	6488	8017148968092991	CMakeFiles/DANDU_MOD_injecter.dir/src/SimpleZipReader.cpp.obj	940ef52d1a5f396f
+1950	6513	8017148967768145	CMakeFiles/DANDU_MOD_injecter.dir/src/main.cpp.obj	45ef84e38a7f7593
+1938	6658	8017148967647247	CMakeFiles/DANDU_MOD_injecter.dir/DANDU_MOD_injecter_autogen/mocs_compilation.cpp.obj	1bd0de6574d956c
+2037	7697	8017148968644866	CMakeFiles/DANDU_MOD_injecter.dir/src/MinecraftManager.cpp.obj	bcaba8b7f877761
+1972	7771	8017148967989734	CMakeFiles/DANDU_MOD_injecter.dir/src/DropCard.cpp.obj	e9bc683167c3f6d2
+1961	8540	8017148967869219	CMakeFiles/DANDU_MOD_injecter.dir/src/MainWindow.cpp.obj	47ee1bcc5618c5e6
+64	492	8017149185600901	DANDU_MOD_injecter_autogen/timestamp	f585c4d290b44ae1
+64	492	8017149185600901	DANDU_MOD_injecter_autogen/mocs_compilation.cpp	f585c4d290b44ae1
+64	492	8017149185600901	C:/Users/dandu_jhluw4e/Desktop/Dandu MOD Injecter/build-qt/DANDU_MOD_injecter_autogen/timestamp	f585c4d290b44ae1
+64	492	8017149185600901	C:/Users/dandu_jhluw4e/Desktop/Dandu MOD Injecter/build-qt/DANDU_MOD_injecter_autogen/mocs_compilation.cpp	f585c4d290b44ae1
+495	4526	8017149189899659	CMakeFiles/DANDU_MOD_injecter.dir/src/ModAnalyzer.cpp.obj	572b8e5fde300cef
+4526	5325	8017149230214978	DANDU_MOD_injecter.exe	6732e39b82935088
