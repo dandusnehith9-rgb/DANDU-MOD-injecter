@@ -41,6 +41,47 @@ Important: this tool installs files. It does not inject into running process mem
 - C++17 compiler (MinGW or MSVC)
 - zlib (or toolchain that already provides compatible zlib)
 
+## After You Install/Clone This Repo
+
+Do this right away after downloading the repository.
+
+### Option A: Run the Included Built App (Easiest)
+
+If the repo already contains `build-qt\DANDU_MOD_injecter.exe` and Qt DLL files:
+
+1. Open this folder:
+   - `build-qt`
+2. Double-click:
+   - `DANDU_MOD_injecter.exe`
+3. Go to **Quick Start (No Coding)** below and install your mod.
+
+### Option B: Build It Yourself (If EXE Is Missing)
+
+1. Open PowerShell in the repo folder.
+2. Run:
+
+```powershell
+cmake -S . -B build-qt -G Ninja `
+  -DCMAKE_MAKE_PROGRAM="C:/Qt/Tools/Ninja/ninja.exe" `
+  -DCMAKE_PREFIX_PATH="C:/Qt/6.11.1/mingw_64" `
+  -DCMAKE_CXX_COMPILER="C:/Qt/Tools/mingw1310_64/bin/g++.exe"
+
+cmake --build build-qt
+```
+
+3. Start the app:
+   - `build-qt\DANDU_MOD_injecter.exe`
+
+### Important Next Step (Share With Other PCs)
+
+If you plan to send the app to someone else, run this in Command Prompt inside `build-qt`:
+
+```bat
+"C:\Qt\6.11.1\mingw_64\bin\windeployqt.exe" --compiler-runtime DANDU_MOD_injecter.exe
+```
+
+Then share the full `build-qt` folder, not only the `.exe`.
+
 ## Quick Start (No Coding)
 
 1. Open `DANDU_MOD_injecter.exe`.
