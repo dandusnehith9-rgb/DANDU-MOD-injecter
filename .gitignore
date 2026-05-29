@@ -1,44 +1,3 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
 # Build directories
 build/
 Build/
@@ -48,22 +7,88 @@ build-*/
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
+CTestTestfile.cmake
 Makefile
-install_manifest.txt
+build.ninja
+.ninja_deps
+.ninja_log
 compile_commands.json
+install_manifest.txt
 
-# Temporary files
+# IDE and editor settings
+.vs/
+.vscode/
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qmake.stash
+.qtc_clangd/
+.clangd/
+.cache/
+
+# Visual Studio generated files
+*.VC.db
+*.VC.opendb
+*.sln
+*.vcxproj*
+
+# Compiled and intermediate files
+*.d
+*.o
+*.obj
+*.lo
+*.slo
+*.a
+*.la
+*.lai
+*.lib
+*.exp
+*.ilk
+*.idb
+*.pdb
+*.dwo
+*.gch
+*.pch
+*.mod
+*.smod
+
+# Executables and shared libs
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.so.*
+*.dylib
+*.dSYM/
+
+# Qt deploy/runtime output
+platforms/
+styles/
+imageformats/
+iconengines/
+networkinformation/
+generic/
+tls/
+translations/
+opengl32sw.dll
+D3Dcompiler_47.dll
+libgcc_s_seh-1.dll
+libstdc++-6.dll
+libwinpthread-1.dll
+
+# Temp/log files
 *.tmp
 *.log
 *.bak
 *.swp
 
-# vcpkg
+# Package manager caches
 vcpkg_installed/
 
-# debug information files
-*.dwo
-
-# test output & cache
+# Test output
 Testing/
-.cache/
+
+# OS noise
+Thumbs.db
+.DS_Store
