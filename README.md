@@ -223,4 +223,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-Add your chosen license file before public release (for example MIT).
+see [LICENSE](LICENSE).
